@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre1.8.0_202\bin\java.exe" -Xms4096M -Xmx16384M -jar forge-1.12.2-14.23.5.2859.jar nogui 
