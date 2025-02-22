@@ -1,0 +1,120 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/rec.png",
+            "posX" : -215,
+            "posY" : 15,
+            "width" : 430,
+            "height" : 430,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -200,
+            "posY" : 25,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -200,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -200,
+            "posY" : 75,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -200,
+            "posY" : 100,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -200,
+            "posY" : 127,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "ultimaterecap":
+        {
+            "text" : "Ultimate Recapture 1.3.0",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : -170,
+            "posY" : -36,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        
+        "background":
+        {
+            "image" : "custommainmenu:textures/gui/back.png",
+            "animate" : false,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : false
+        }
+    }
+}
