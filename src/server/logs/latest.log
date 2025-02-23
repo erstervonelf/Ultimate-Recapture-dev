@@ -1,0 +1,31 @@
+[14:30:45] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[14:32:09] [Server thread/INFO]: Loading properties
+[14:32:09] [Server thread/INFO]: Default game type: CREATIVE
+[14:32:09] [Server thread/INFO]: Generating keypair
+[14:32:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:33:06] [Server thread/INFO]: Preparing level "world"
+[14:33:09] [Server thread/INFO]: Preparing start region for level 0
+[14:33:10] [Server thread/INFO]: Preparing spawn area: 0%
+[14:33:11] [Server thread/INFO]: Preparing spawn area: 8%
+[14:33:12] [Server thread/INFO]: Preparing spawn area: 84%
+[14:33:12] [Server thread/INFO]: Done (9,414s)! For help, type "help" or "?"
+[14:33:24] [AromaBackup/INFO]: [§1AromaBackup§r] Starting Backup. The server may lag for a bit!
+[14:33:32] [Server thread/INFO]: Added Niko9090 to the whitelist
+[14:33:32] [Server thread/INFO]: Added erstervonelf to the whitelist
+[14:33:32] [Server thread/INFO]: Reloaded the whitelist
+[14:33:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4739ms behind, skipping 94 tick(s)
+[14:33:34] [AromaBackup/INFO]: [§1AromaBackup§r] Server Backup done!
+[14:33:34] [AromaBackup/INFO]: [§1AromaBackup§r] Next scheduled Backup in 30 minutes.
+[14:33:40] [User Authenticator #1/INFO]: UUID of player Niko9090 is b2985248-7ea5-4187-8879-a27a5cddd6f2
+[14:33:42] [Server thread/INFO]: Niko9090[/25.46.10.163:54958] logged in with entity id 175 at (-200.5, 68.0, 180.5)
+[14:33:42] [Server thread/INFO]: Niko9090 joined the game
+[14:33:44] [Server thread/INFO]: Niko9090 has just earned the achievement [You've been installed!]
+[14:33:53] [Server thread/INFO]: Niko9090 has just earned the achievement [Taking Inventory]
+[14:33:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2618ms behind, skipping 52 tick(s)
+[14:34:01] [Server thread/INFO]: Opped Niko9090
+[14:34:04] [Server thread/INFO]: Opped erstervonelf
+[14:34:16] [User Authenticator #2/INFO]: UUID of player erstervonelf is 1e8cf129-2e4f-41f9-a25e-233e032a1176
+[14:34:16] [Server thread/INFO]: erstervonelf[/25.46.31.70:62856] logged in with entity id 191 at (-193.4205604064653, 92.07944321527461, 180.1472499890584)
+[14:34:16] [Server thread/INFO]: erstervonelf joined the game
+[14:34:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2003ms behind, skipping 40 tick(s)
+[14:35:15] [Server thread/INFO]: [erstervonelf: Turned on the whitelist]
