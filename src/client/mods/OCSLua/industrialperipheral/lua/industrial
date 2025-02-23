@@ -1,0 +1,215 @@
+function nativeCall(_sSide, _sMethod, ...)
+	if peripheral.isPresent( _sSide ) then
+		return peripheral.call( _sSide, _sMethod, ... )
+	end
+end
+
+local bindedSide = nil;
+
+function bindSide(_sSide)
+	if peripheral.isPresent( _sSide ) then
+		bindedSide = _sSide;
+		return true;
+	else
+		bindedSide = nil;
+		return false;
+	end
+end
+
+function getMachineNameInSlot(_slot)
+	return nativeCall(bindedSide, "machineSlot", _slot);
+end
+
+-- Fluid Regulator
+FluidRegulator = {} 
+FluidRegulator.__index = FluidRegulator 
+
+function FluidRegulator.getOutputMb(_slot)
+	return nativeCall(bindedSide, "fluidregulator_getOutputMb", _slot);
+end
+
+function FluidRegulator.setOutputMb(_slot, value)
+	return nativeCall(bindedSide, "fluidregulator_setOutputMb", _slot, value);
+end
+
+function FluidRegulator.getMode(_slot)
+	return nativeCall(bindedSide, "fluidregulator_getMode", _slot);
+end
+
+function FluidRegulator.setMode(_slot, value)
+	return nativeCall(bindedSide, "fluidregulator_setMode", _slot, value);
+end
+
+function FluidRegulator.getFluidStock(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "fluidregulator_getFluidStock", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+-- Electric Machine
+ElectricMachine = {} 
+ElectricMachine.__index = ElectricMachine 
+
+function ElectricMachine.getEnergy(_slot)
+	return nativeCall(bindedSide, "electricmachine_getEnergy", _slot);
+end
+
+-- Steam Generator
+SteamGenerator = {} 
+SteamGenerator.__index = SteamGenerator 
+
+function SteamGenerator.getPressure(_slot)
+	return nativeCall(bindedSide, "steamgenerator_getPressure", _slot);
+end
+
+function SteamGenerator.setPressure(_slot, value)
+	return nativeCall(bindedSide, "steamgenerator_setPressure", _slot, value);
+end
+
+function SteamGenerator.getInputWater(_slot)
+	return nativeCall(bindedSide, "steamgenerator_getInputWater", _slot);
+end
+
+function SteamGenerator.setInputWater(_slot, value)
+	return nativeCall(bindedSide, "steamgenerator_setInputWater", _slot, value);
+end
+
+function SteamGenerator.getCalcification(_slot)
+	local _current, _max = nativeCall(bindedSide, "steamgenerator_getCalcification", _slot);
+	return { current = _current, max = _max };
+end
+
+function SteamGenerator.getHeatInput(_slot)
+	return nativeCall(bindedSide, "steamgenerator_getHeatInput", _slot);
+end
+
+function SteamGenerator.getOutput(_slot)
+	local _volume, _type = nativeCall(bindedSide, "steamgenerator_getOutput", _slot);
+	return { volume = _volume, type = _type };
+end
+
+function SteamGenerator.getSystemHeat(_slot)
+	local _current, _max = nativeCall(bindedSide, "steamgenerator_getSystemHeat", _slot);
+	return { current = _current, max = _max };
+end
+
+function SteamGenerator.getFluidStock(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "steamgenerator_getFluidStock", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+-- Condenser
+Condenser = {} 
+Condenser.__index = Condenser 
+
+function Condenser.getProgress(_slot)
+	return nativeCall(bindedSide, "condenser_getProgress", _slot);
+end
+
+function Condenser.getFluidInput(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "condenser_getFluidInput", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+function Condenser.getFluidOutput(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "condenser_getFluidOutput", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+-- LHE
+LHE = {} 
+LHE.__index = LHE 
+
+function LHE.getHeatTransmit(_slot)
+	local _current, _max = nativeCall(bindedSide, "lhe_getHeatTransmit", _slot);
+	return { current = _current, max = _max };
+end
+
+function LHE.getFluidWarm(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "lhe_getFluidWarm", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+function LHE.getFluidCold(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "lhe_getFluidCold", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+-- Electric Storage
+ElectricStorage = {} 
+ElectricStorage.__index = ElectricStorage 
+
+function ElectricStorage.getEnergy(_slot)
+	local _current, _max, _output = nativeCall(bindedSide, "electricstorage_getEnergy", _slot);
+	return { current = _current, max = _max, output = _output };
+end
+
+-- Electric Generator
+ElectricGenerator = {} 
+ElectricGenerator.__index = ElectricGenerator 
+
+function ElectricGenerator.getStirlingProduction(_slot)
+	local _receivedheat, _production = nativeCall(bindedSide, "electricgenerator_getStirlingProduction", _slot);
+	return { receivedheat = _receivedheat, production = _production };
+end
+
+function ElectricGenerator.getKineticProduction(_slot)
+	local _receivedkinetic, _production = nativeCall(bindedSide, "electricgenerator_getKineticProduction", _slot);
+	return { receivedkinetic = _receivedkinetic, production = _production };
+end
+
+-- Kinetic Steam Generator
+KineticSteamGenerator = {} 
+KineticSteamGenerator.__index = KineticSteamGenerator 
+
+function KineticSteamGenerator.getPower(_slot)
+	return nativeCall(bindedSide, "kineticsteamgenerator_getPower", _slot);
+end
+
+function KineticSteamGenerator.getTurbineDamage(_slot)
+	return nativeCall(bindedSide, "kineticsteamgenerator_getTurbineDamage", _slot);
+end
+
+function KineticSteamGenerator.getDistiledTank(_slot)
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "kineticsteamgenerator_getDistiledTank", _slot);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+-- Nuclear Reactor
+NuclearReactor = {} 
+NuclearReactor.__index = NuclearReactor 
+
+function NuclearReactor.getActive()
+	return nativeCall(bindedSide, "nuclearreactor_getActive", 0);
+end
+
+function NuclearReactor.getPowerEU()
+	return nativeCall(bindedSide, "nuclearreactor_getPowerEU", 0);
+end
+
+function NuclearReactor.getHeat()
+	local _current, _max = nativeCall(bindedSide, "nuclearreactor_getHeat", 0);
+	return { current = _current, max = _max };
+end
+
+function NuclearReactor.getEmitHeat()
+	return nativeCall(bindedSide, "nuclearreactor_getEmitHeat", 0);
+end
+
+function NuclearReactor.getFluidWarm()
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "nuclearreactor_getFluidWarm", 0);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
+
+function NuclearReactor.getFluidCold()
+	-- fluid return
+	local _name, _amount, _capacity =  nativeCall(bindedSide, "nuclearreactor_getFluidCold", 0);
+	return { name = _name, amount = _amount, capacity = _capacity };
+end
