@@ -94,11 +94,6 @@
       "fluid": ["VITRIOL",50]
     },
     {
-      "input": ["item","hbm:tile.stone_resource",1,5],
-      "output": ["hbm:item.ingot_aluminium",2],
-      "fluid": ["REDMUD",250]
-    },
-    {
       "input": ["item","minecraft:glowstone_dust"],
       "output": ["hbm:item.sulfur"],
       "fluid": ["CHLORINE",100]
@@ -116,6 +111,11 @@
       "input": ["item","hbm:item.bedrock_ore",1,52],
       "output": ["hbm:item.bedrock_ore",1,68],
       "fluid": ["VITRIOL",50]
+    },
+    {
+      "input": ["item","hbm:item.chunk_ore",1,2],
+      "output": ["hbm:item.powder_aluminium"],
+      "fluid": ["LYE",150]
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,48],

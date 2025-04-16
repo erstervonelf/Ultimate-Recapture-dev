@@ -24,8 +24,8 @@
         ["dict","gemCoal"]
       ],
       "output": ["Steel",144],
-      "duration": 100,
-      "steam": 100
+      "duration": 200,
+      "steam": 25
     },
     {
       "inputs": [
@@ -33,8 +33,8 @@
         ["dict","gemAnyCoke"]
       ],
       "output": ["Steel",216],
-      "duration": 100,
-      "steam": 100
+      "duration": 200,
+      "steam": 25
     },
     {
       "inputs": [
@@ -43,8 +43,8 @@
         ["item","hbm:item.powder_flux"]
       ],
       "output": ["Steel",288],
-      "duration": 200,
-      "steam": 100
+      "duration": 400,
+      "steam": 25
     },
     {
       "inputs": [
@@ -83,6 +83,33 @@
       "output": ["Saturnite",144],
       "duration": 200,
       "steam": 400
+    },
+    {
+      "inputs": [
+        ["dict","dustDuraSteel",4],
+        ["dict","dustCopper"],
+        ["dict","dustBorax"]
+      ],
+      "fluid": ["REFORMGAS",250],
+      "output": ["Saturnite",288],
+      "duration": 200,
+      "steam": 300
+    },
+    {
+      "inputs": [],
+      "fluid": ["SODIUM_ALUMINATE",150],
+      "output": ["Aluminum",144],
+      "duration": 100,
+      "steam": 400
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.powder_flux",2]
+      ],
+      "fluid": ["SODIUM_ALUMINATE",150],
+      "output": ["Aluminum",216],
+      "duration": 40,
+      "steam": 200
     }
   ]
 }

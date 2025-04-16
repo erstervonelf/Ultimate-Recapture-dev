@@ -98,6 +98,10 @@
       "output": [["Tungsten",144]]
     },
     {
+      "input": ["item","hbm:item.chunk_ore",1,2],
+      "output": [["Aluminum",72],["Sodium",72]]
+    },
+    {
       "input": ["item","hbm:item.stamp_stone_flat"],
       "output": [["Stone",216]]
     },
@@ -107,11 +111,7 @@
     },
     {
       "input": ["dict","oreMalachite"],
-      "output": [["Malachite",72]]
-    },
-    {
-      "input": ["dict","oreAluminum"],
-      "output": [["Aluminum",144],["Stone",162]]
+      "output": [["Malachite",432]]
     },
     {
       "input": ["dict","oreIron"],

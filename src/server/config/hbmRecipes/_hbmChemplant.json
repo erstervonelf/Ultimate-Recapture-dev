@@ -1020,6 +1020,21 @@
         ["hbm:item.sulfur",4],
         ["hbm:item.niter",3]
       ]
+    },
+    {
+      "id": 104,
+      "name": "RUSTY_DECO_STEEL",
+      "duration": 100,
+      "fluidInput": [
+        ["WATER",1000]
+      ],
+      "itemInput": [
+        ["item","hbm:tile.deco_steel",8]
+      ],
+      "fluidOutput": [],
+      "itemOutput": [
+        ["hbm:tile.deco_rusty_steel",8]
+      ]
     }
   ]
 }

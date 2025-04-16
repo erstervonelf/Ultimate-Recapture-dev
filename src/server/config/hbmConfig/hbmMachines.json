@@ -54,6 +54,26 @@
     "D:cooldownModifier": 1.0,
     "D:healthRegenModifier": 1.0
   },
+  "rotaryfurnace": {
+    "M:burnModule": {
+      "D:timeLog": 1.0,
+      "D:timeWood": 1.0,
+      "D:timeCoal": 1.0,
+      "D:timeLignite": 1.0,
+      "D:timeCoke": 1.25,
+      "D:timeSolid": 1.5,
+      "D:timeRocket": 1.5,
+      "D:timeBalefire": 1.5,
+      "D:heatLog": 1.0,
+      "D:heatWood": 1.0,
+      "D:heatCoal": 1.0,
+      "D:heatLignite": 1.0,
+      "D:heatCoke": 1.0,
+      "D:heatSolid": 1.5,
+      "D:heatRocket": 3.0,
+      "D:heatBalefie": 10.0
+    }
+  },
   "firebox": {
     "I:baseHeat": 100,
     "D:burnTimeMult": 1.0,

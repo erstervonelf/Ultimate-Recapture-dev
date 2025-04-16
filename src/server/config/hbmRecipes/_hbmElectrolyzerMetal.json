@@ -315,9 +315,10 @@
     },
     {
       "input": ["item","hbm:item.crystal_aluminium"],
-      "output1": ["Aluminum",432],
+      "output1": ["Aluminum",144],
       "output2": ["Iron",144],
       "byproducts": [
+        ["hbm:item.chunk_ore",4,2],
         ["hbm:item.powder_lithium_tiny",3]
       ],
       "duration": 600

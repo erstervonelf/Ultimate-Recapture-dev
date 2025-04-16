@@ -5,12 +5,12 @@
       "output": ["HEAVYOIL",250]
     },
     {
-      "input": ["STEAM",1000],
-      "output": ["HOTSTEAM",100]
+      "input": ["PERFLUOROMETHYL",1000],
+      "output": ["PERFLUOROMETHYL",1000,1]
     },
     {
-      "input": ["SUPERHOTSTEAM",1000],
-      "output": ["ULTRAHOTSTEAM",100]
+      "input": ["PERFLUOROMETHYL",1000,1],
+      "output": ["PERFLUOROMETHYL_COLD",1000]
     },
     {
       "input": ["PETROLEUM",2000],
@@ -19,10 +19,6 @@
     {
       "input": ["PETROLEUM",2000,1],
       "output": ["LPG",1000]
-    },
-    {
-      "input": ["HOTSTEAM",1000],
-      "output": ["SUPERHOTSTEAM",100]
     }
   ]
 }

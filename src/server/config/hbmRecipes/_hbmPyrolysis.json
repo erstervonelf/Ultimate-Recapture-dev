@@ -358,12 +358,6 @@
       "duration": 100
     },
     {
-      "inputFluid": ["HYDROGEN",250],
-      "inputItem": ["dict","gemAnyCoke"],
-      "outputFluid": ["HEAVYOIL",1000],
-      "duration": 100
-    },
-    {
       "inputFluid": ["HEAVYOIL",500],
       "inputItem": ["dict","gemCoal"],
       "outputFluid": ["COALGAS",1000],
@@ -384,6 +378,12 @@
     {
       "inputFluid": ["GAS_COKER",4000],
       "outputFluid": ["REFORMGAS",100],
+      "duration": 60
+    },
+    {
+      "inputFluid": ["GAS",12000],
+      "outputFluid": ["HYDROGEN",8000],
+      "outputItem": ["hbm:item.ingot_graphite"],
       "duration": 60
     }
   ]

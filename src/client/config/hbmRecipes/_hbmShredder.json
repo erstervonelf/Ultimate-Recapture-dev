@@ -206,10 +206,6 @@
       "output": ["hbm:item.scrap_plastic",1,5]
     },
     {
-      "input": ["MineFactoryReloaded:rubberwood.sapling"],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["hbm:item.ore_separated",1,1],
       "output": ["hbm:item.ore_enriched",1,1]
     },
@@ -1328,6 +1324,10 @@
     {
       "input": ["minecraft:gravel"],
       "output": ["minecraft:sand"]
+    },
+    {
+      "input": ["hbm:tile.ore_aluminium"],
+      "output": ["hbm:item.chunk_ore",2,2]
     },
     {
       "input": ["hbm:tile.bobblehead",1,12],

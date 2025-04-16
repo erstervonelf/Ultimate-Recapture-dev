@@ -110,6 +110,7 @@
       "solder": [
         ["dict","wireFineLead",16]
       ],
+      "fluid": ["PERFLUOROMETHYL",1000],
       "output": ["hbm:item.circuit",1,13],
       "duration": 400,
       "consumption": 15000
@@ -127,6 +128,7 @@
       "solder": [
         ["dict","wireFineLead",24]
       ],
+      "fluid": ["PERFLUOROMETHYL",4000],
       "output": ["hbm:item.circuit",1,14],
       "duration": 600,
       "consumption": 25000
@@ -144,6 +146,7 @@
       "solder": [
         ["dict","wireFineLead",32]
       ],
+      "fluid": ["PERFLUOROMETHYL_COLD",6000],
       "output": ["hbm:item.circuit",1,17],
       "duration": 600,
       "consumption": 250000

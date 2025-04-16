@@ -53,6 +53,14 @@
     },
     {
       "inputs": [
+        ["dict","wireFineCopper",8]
+      ],
+      "output": ["hbm:item.wire_dense",1,2900],
+      "duration": 100,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
         ["dict","wireFineAdvancedAlloy",8]
       ],
       "output": ["hbm:item.wire_dense",1,32],
