@@ -64,7 +64,7 @@ Morph-Beta-0.9.3.jar
 MouseTweaks-2.4.4-mc1.7.10.jar
 MrCrayfishFurnitureModv3.4.7(1.7.10).jar
 NGTLib1.7.10.35_Forge10.13.4.1558.jar
-NTM-1-of-90-Edition-r.4.jar
+NTM-1-of-90-Edition-r.5.jar
 NotEnoughIDs-1.4.3.4.jar
 NotEnoughItems-1.7.10-1.0.5.120-universal.jar
 NuclearCraft-1.9g--1.7.10.jar
