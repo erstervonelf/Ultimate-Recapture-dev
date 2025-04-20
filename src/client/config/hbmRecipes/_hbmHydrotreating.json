@@ -13,9 +13,9 @@
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "DIESEL_CRACK_REFORM",
+      "input": "DIESEL_CRACK",
       "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["DIESEL_REFORM",80],
+      "output1": ["DIESEL",80],
       "output2": ["SOURGAS",30]
     },
     {
@@ -25,16 +25,16 @@
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "DIESEL_CRACK",
-      "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["DIESEL",80],
-      "output2": ["SOURGAS",30]
-    },
-    {
       "input": "CRACKOIL",
       "hydrogen": ["HYDROGEN",5,1],
       "output1": ["CRACKOIL_DS",90],
       "output2": ["SOURGAS",15]
+    },
+    {
+      "input": "DIESEL_CRACK_REFORM",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["DIESEL_REFORM",80],
+      "output2": ["SOURGAS",30]
     }
   ]
 }

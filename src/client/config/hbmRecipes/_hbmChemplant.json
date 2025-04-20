@@ -5,7 +5,9 @@
       "id": 31,
       "name": "BP_BIOGAS",
       "duration": 60,
-      "fluidInput": [],
+      "fluidInput": [
+        ["AIR",4000]
+      ],
       "itemInput": [
         ["item","hbm:item.biomass",16]
       ],
@@ -534,7 +536,7 @@
       "name": "XENON",
       "duration": 300,
       "fluidInput": [
-        ["NONE",0]
+        ["AIR",16000]
       ],
       "itemInput": [],
       "fluidOutput": [
@@ -547,6 +549,7 @@
       "name": "XENON_OXY",
       "duration": 20,
       "fluidInput": [
+        ["AIR",8000],
         ["OXYGEN",250]
       ],
       "itemInput": [],

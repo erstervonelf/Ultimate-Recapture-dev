@@ -1,6 +1,9 @@
 #OpenPeripheral user-friendly names
 #class_name	user_name
+com.hbm.tileentity.TileEntityProxyCombo	peripheral
+com.hbm.tileentity.TileEntityProxyInventory	container_rbmkrod
 com.hbm.tileentity.machine.rbmk.TileEntityRBMKConsole	peripheral
+com.hbm.tileentity.machine.rbmk.TileEntityRBMKRod	container_rbmkrod
 net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
 net.minecraft.tileentity.TileEntityBeacon	beacon
 net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand

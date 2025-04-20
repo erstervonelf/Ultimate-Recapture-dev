@@ -114,6 +114,10 @@
       "output": [["Malachite",432]]
     },
     {
+      "input": ["dict","oreAluminum"],
+      "output": [["Aluminum",144],["Sodium",24],["Stone",162]]
+    },
+    {
       "input": ["dict","oreIron"],
       "output": [["Iron",144],["Titanium",24],["Stone",162]]
     },
