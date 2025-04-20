@@ -80,7 +80,6 @@ OpenPeripheralIntegration-1.7.10-0.6.jar
 OpenSecurity-1.7.10-1.0-117.jar
 OpenSecurity\sounds\alarms\klaxon1.ogg
 OpenSecurity\sounds\alarms\klaxon2.ogg
-OptiFine_1.7.10_HD_U_E7.jar
 OreExcavation-1.1.134.jar
 PhysicaCore-1.7.10-1.5.6-0.jar
 PhysicaNuclearPhysics-1.7.10-1.5.6-0.jar
