@@ -64,7 +64,7 @@ Morph-Beta-0.9.3.jar
 MouseTweaks-2.4.4-mc1.7.10.jar
 MrCrayfishFurnitureModv3.4.7(1.7.10).jar
 NGTLib1.7.10.35_Forge10.13.4.1558.jar
-NTM-1-of-90-Edition-r.5.jar
+NTM-1-of-90-Edition-r.7.jar
 NotEnoughIDs-1.4.3.4.jar
 NotEnoughItems-1.7.10-1.0.5.120-universal.jar
 NuclearCraft-1.9g--1.7.10.jar
@@ -98,6 +98,7 @@ ProjectRed-1.7.10-4.7.0pre12.95-World.jar
 RTM1.7.10.45_Forge10.13.4.1558.jar
 Railcraft_1.7.10-9.12.2.0.jar
 RealBench-1.2.0.jar
+RebornCore-1.1.0.15-universal.jar
 ResourceLoader-MC1.7.10-1.3.jar
 RoadStuff-mc1.7.10-1.0.2-final.jar
 Schematica-1.7.10-1.7.6.131-universal.jar
@@ -106,6 +107,7 @@ SignPicture-1.7.10-2.8.0-universal.jar
 SolarFlux-1.7.10-0.8b.jar
 StorageDrawers-1.7.10-1.10.9.jar
 TConstruct-1.7.10-1.8.8.jar
+TechReborn-1.7.10-0.7.21.1131-universal.jar
 ThermalDynamics-[1.7.10]1.2.1-172.jar
 ThermalExpansion-[1.7.10]4.1.5-248.jar
 ThermalFoundation-[1.7.10]1.2.6-118.jar
@@ -129,10 +131,12 @@ carpentersblocks\CarpentersBlocksCachedResources.zip
 compactmachines-1.7.10-1.21.jar
 cookingbook-mc1.7.10-1.0.140.jar
 coroutil-1.7.10-1.1.6.jar
+curvy_pipes-1.7.10-1.7.1.jar
 excompressum-mc1.7.10-1.2.0.jar
 extrautilities-1.2.12.jar
 forestry_1.7.10-4.2.16.64.jar
 fullscreenwhileinactive-1.7.10-1.0.0.jar
+generators-0.9.20.123-mc1.7.10.jar
 gtnhmixins-2.1.2.jar
 iChunUtil-4.2.3.jar
 ic2\EJML-core-0.26.jar
